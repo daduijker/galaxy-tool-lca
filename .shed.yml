@@ -1,0 +1,8 @@
+categories: 
+  - Metagenomics
+description: Find lowest common ancestor
+homepage_url: https://github.com/naturalis/galaxy-tool-lca
+name: naturalis_lca
+owner: duijker.d
+remote_repository_url: https://gitlab.com/LCAB-Bioinformatics/galaxy/naturalis/galaxy-tool-lca
+type: unrestricted
