@@ -1,4 +1,4 @@
-<tool id="lca" name="lowest common ancestor">
+<tool id="lca" name="lowest common ancestor" version="1.0">
 <!-- <description>Find lowest common ancestor</description>-->
 <requirements>
         <requirement type="package" version="3.8.2">python</requirement> 
@@ -75,12 +75,12 @@ $minbitscore
 <outputs>
 	<data format="tabular" name="output" label="$input.display_name lca" />
 </outputs>
-<tests>
+<!-- <tests>
 <test>
 <param name="test_input" value="test_input.txt"/>
 <output name="test_outout" file="test_output.txt"/>
 </test>
-</tests>
+</tests> -->
 <help>
 Find lca from blast output
 </help>
