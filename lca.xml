@@ -65,7 +65,7 @@ $minbitscore
 	<param name="filterhits" type="text" label="Dont use hits containing this taxonomy:" help="Comma seperated"  value="environmental"/>
     <param name="filterlcahits" type="text" label="Ignore rank when containing:" help="Comma seperated" value="unknown"/>
 	<param name="filtersource" type="select" multiple="true" label="Dont use hits with taxonomy from:">
-            <option value="BOLD" label="BOLD">BOLD</option>
+            <option value="BOLD">BOLD</option>
             <option value="private_BOLD">private_BOLD</option>
             <option value="Genbank">Genbank</option>
         </param>
